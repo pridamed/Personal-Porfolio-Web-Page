@@ -11,17 +11,24 @@
 }
 
 #navbar {
-    
+    display: inline-block;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: goldenrod;
+    background-color: rgb(161, 156, 141);
     color: white;
     font-family: 'Exo 2', sans-serif;
     padding: 1em;
+    
 
 }
-a {float: right;
-margin: 5px;
+a {
+    float: right;
+    margin: 5px;
 }
+#image {
+    margin: auto;
+    width: auto;
+}
+
